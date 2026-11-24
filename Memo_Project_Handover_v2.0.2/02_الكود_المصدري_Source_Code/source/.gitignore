@@ -1,0 +1,17 @@
+# Build and test output
+**/bin/
+**/obj/
+**/publish/
+**/node_modules/
+**/TestResults/
+
+# Local/runtime configuration and secrets
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.example.json
+**/*.user
+**/*.suo
+
+# Local generated data
+Data/
+*.log

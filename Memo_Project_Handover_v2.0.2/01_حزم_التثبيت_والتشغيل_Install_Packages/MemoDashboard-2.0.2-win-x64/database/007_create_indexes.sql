@@ -1,0 +1,10 @@
+create index if not exists ix_users_role on auth.users(role_id);
+create index if not exists ix_notes_type on core.notes(note_type_id);
+create index if not exists ix_notes_company on core.notes(company_id);
+create index if not exists ix_notes_writing_date on core.notes(writing_date);
+create index if not exists ix_notes_status on core.notes(status);
+create index if not exists ix_note_field_values_note on core.note_field_values(note_id);
+create index if not exists ix_note_field_values_field on core.note_field_values(field_id);
+create index if not exists ix_audit_logs_user on audit.logs(user_id);
+create index if not exists ix_audit_logs_created_at on audit.logs(created_at);
+create index if not exists ix_backup_history_started_at on system.backup_history(started_at);

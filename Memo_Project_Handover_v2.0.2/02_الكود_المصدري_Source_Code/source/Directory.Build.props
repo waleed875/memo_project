@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <ProductVersion>2.0.2</ProductVersion>
+    <ProductAssemblyVersion>2.0.2.0</ProductAssemblyVersion>
+    <Version>$(ProductVersion)</Version>
+    <AssemblyVersion>$(ProductAssemblyVersion)</AssemblyVersion>
+    <FileVersion>$(ProductAssemblyVersion)</FileVersion>
+    <InformationalVersion>$(ProductVersion)</InformationalVersion>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+</Project>

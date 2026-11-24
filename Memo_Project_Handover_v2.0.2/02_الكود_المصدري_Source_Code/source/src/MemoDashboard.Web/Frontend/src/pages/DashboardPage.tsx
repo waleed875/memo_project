@@ -1,0 +1,1 @@
+export { LegacyDashboard as DashboardPage } from '../dashboard/legacy/LegacyDashboard'
